@@ -9,7 +9,6 @@ Bienvenue dans le dépôt de **Scrapping_JS**, un projet développé en JavaScri
 - [Technologies utilisées](#technologies-utilisées)
 - [Prérequis](#prérequis)
 - [Installation](#installation)
-- [Utilisation](#utilisation)
 
 
 ## À propos
