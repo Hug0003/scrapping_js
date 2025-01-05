@@ -1,38 +1,43 @@
-# Scrapping_JS
+# Scrapping 
+## 📄 Description
+Connexion automatique a mon compte sur le site de mon école ( id, mdp ) puis recupère données de mon emploie du temps du lendemain
+et les structures puis me les envoies par messages tous les matins.
 
-Bienvenue dans le dépôt de **Scrapping_JS**, un projet développé en JavaScript pour effectuer du **web scraping**. Ce projet permet de récupérer des informations depuis des sites web en utilisant des techniques de scraping avec des outils JavaScript.
+## ✨ Fonctionnalités
+- [x] Connexion automatique a mon compte sur le site de mon école 
+- [x] récupère les matières et heures de mon emploie du temps   
+- [x] Il m'envoie les données structurées par message  
 
-## Table des Matières
+## 🚀 Installation
+### Prérequis
+- installer nodejs
+  puis 
+- installer puppeteer ( npm install puppeteer )
+- installer twilio ( npm install twilio ) -> se faire un compte twilio avant
 
-- [À propos](#à-propos)
-- [Fonctionnalités](#fonctionnalités)
-- [Technologies utilisées](#technologies-utilisées)
-- [Prérequis](#prérequis)
-- [Installation](#installation)
+### Étapes d'installation
+# Clonez le projet
+git clone https://github.com/Hug0003/scrapping_js.git
 
+# Lancez le projet
+dans le terminale, "node bote.js"
 
-## À propos
+## 📚 Usage
+Récuperer des données automatiquement sans faire d'effort et de manière rapide, efficace et quotidienne 
 
-**Scrapping_JS** est un projet qui permet de récupérer mon emploie du temps de mes cours et de me les envoyer par messages tous les jours avec twilio.
+## 👥 Contributeurs
+- moi : [@monprofil](https://github.com/Hug0003)  
 
-## Fonctionnalités
+### Contribuer
+Les pull requests sont les bienvenues. Pour les changements majeurs, ouvrez une issue d'abord pour discuter de ce que vous souhaitez changer.  
 
-- **Extraction de données** : Permet de scraper des informations spécifiques sur le site de mon école pour récuperer mon emploie du temps
-- **Connexion** : le script se connecte automatiquement à mon compte pour recuperer mon emploie du temps
-- **Analyse HTML** : Utilisation du framework JS : puppeteer 
-- **Manipulation des données** : Une fois les données extraites, je me les envoies en message avec twilio.
+## 🛠️ Technologies Utilisées
+- JS  
+- Puppeteer  
+- Twilio  
 
-## Technologies utilisées
+## 📬 Contact
+Pour toute question, contactez-moi :  
+- GitHub : [@monprofil](https://github.com/Hug0003)  
+- E-mail : hugomeuriel@gmail.com
 
-- **JavaScript (Vanilla)** : Gère l'envoie par message de mon emploie du temps
-- **Puppeteer** : Récupere mon emploie du temps sur le site de mon école et se connecte à mon compte
-
-## Prérequis
-
-Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
-
-- **Puppeteer**
-- **npm**
-
-## Installation
-tps://github.com/Hug0003/scrapping_js.git
