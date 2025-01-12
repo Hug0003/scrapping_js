@@ -14,7 +14,8 @@ Automatiser la connexion à mon compte sur le site de mon école (avec mes ident
 - installer puppeteer ( npm install puppeteer )
 - installer twilio ( npm install twilio ) -> se faire un compte twilio avant
 
-- dans le code remplacer les variables du site, mdp et id par les votre et numéro de téléphone
+- dans le code remplacer les variables du site, mdp et id par les votre et numéro de téléphone et tokebn de twilio
+
 
 ### Étapes d'installation
 # Clonez le projet
